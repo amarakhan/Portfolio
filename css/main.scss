@@ -1,0 +1,291 @@
+// 
+$primary-orange: #F0AD89;
+$border-grey: rgba(112, 112, 112, 0.478);
+$title-font: 'Arvo', serif;
+$accent-font: 'Raleway', sans-serif;
+
+// *{
+//     border: 1px solid red;
+// }
+
+
+// styling navigation and overiding styles from Bulma css library
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav.navbar {
+    border-bottom: 2px solid $border-grey !important;
+    font-family: $title-font;
+    // font-family: 'Playfair Display', serif;
+}
+div.navbar-brand{
+    font-size: 1.5rem;
+}
+.divider{
+    color: $border-grey;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+}
+a.navbar-item{
+    color:$primary-orange!important;
+}
+
+#nav-1, #nav-2, #nav-3, #nav-4 {
+    color: black;
+}
+
+
+// styling section divs
+.home{
+    // display: inline-block;
+    width: 90vw;
+    height: 92.5vh;
+    border-left: 2px solid $border-grey;
+    border-right: 2px solid $border-grey;
+    border-bottom: 2px solid $border-grey;
+    margin: 0 auto;
+}
+.about, .projects, .contact{
+    width: 90vw;
+    min-height: 80vh;
+    border: 2px solid $border-grey;
+    margin: 0 auto;
+    margin-top: 12.5vh;
+}
+.about{
+    min-height: 500px;
+}
+.contact{
+    margin-bottom: 6.25vh;
+}
+
+
+// styling home section
+.home-hero{
+    // border: 1px solid red;
+    text-align: center;
+    padding-top: 35vh;
+    max-width: 450px;
+    width: 60vw;
+    min-width: 250px;
+    margin: 0 auto;
+    h2{
+        padding-top: 20px;
+        padding-bottom: 5px;
+        background-color: $primary-orange;
+        // margin-left: 10vw;
+        // margin-right: 10vw;
+        color: white;
+        font-family: $title-font;
+        font-size: 2rem;
+        letter-spacing: .3rem;
+    }
+    p{
+        background-color: $primary-orange;
+        // margin-left: 10vw;
+        // margin-right: 10vw;
+        padding-top: 7px;
+        font-family: $title-font;
+        color: black;
+        padding-bottom: 20px;
+    }
+}
+
+
+// Styling about me
+.about-title{
+    margin-top: 15vh;
+    text-align: center;
+    font-family: $title-font;
+    font-size: 1.5rem;
+    color: $primary-orange;
+    padding-bottom: 10px;
+}
+.flex-parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: $accent-font;
+    margin-bottom: 10vh;
+}
+.flex-child{
+    // width: 30vh;
+    // height: 20vh;
+    padding: 7.5px;
+    width: 275px;
+}
+.about-1{
+    border: 1px solid $border-grey;
+}
+.about-2{
+    background-color: black;
+    color: white;
+}
+
+
+// Styling projects
+.projects-title{
+    margin-top: 10vh;
+    text-align: center;
+    font-family: $title-font;
+    font-size: 1.5rem;
+    color: $primary-orange;
+    padding-bottom: 10px;
+}
+.projects-carousel, .projects-description{
+    // border: 1px solid red;
+    text-align: center;
+}
+.projects-img{
+    border: 1px solid red;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid $border-grey;
+}
+.description-carousel{
+    width: 300px;
+    display: inline-block;
+    background-color: white;
+    color: black;
+    font-family: $accent-font;
+    padding: 10px;
+}
+.projects-banner{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: $primary-orange;
+    width: 300px;
+    margin: 0 auto;
+}
+.projects-arrow{
+    display: inline;
+    font-size: 2rem;
+    display: inline-block;
+    color: white;
+    background-position-x: 0;
+    transition: all 02s ease;
+    -webkit-transition: all 02s ease;
+    &:hover, &:active{
+        color: black;
+    }
+}
+.banner-link{
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+    font-family: $accent-font;
+    font-size: 1.2rem;
+    transition: all 01s ease;
+    -webkit-transition: all 01s ease;
+    &:hover, &:active{
+        cursor: pointer; 
+        color: white;
+    }
+}
+.arrow-left{
+    margin-right: 20px;
+    &:hover{
+        cursor: pointer;
+    }
+}
+.arrow-right{
+    margin-left: 20px;
+    &:hover{
+        cursor: pointer;
+    }
+}
+.projects-description{
+    margin-bottom: 10vh;
+}
+.project-title{
+    font-weight: bold;
+    font-family: $title-font;
+    display: block;
+    letter-spacing: .25rem;
+    padding-top: 6px;
+    padding-bottom: 5px;
+    font-size: 1.2rem;
+}
+.project-text{
+    font-size: .9rem;
+    color: black;
+}
+
+
+// Styling contact 
+.contact-title{
+    margin-top: 10vh;
+    text-align: center;
+    font-family: $title-font;
+    font-size: 1.5rem;
+    color: $primary-orange;
+    padding-bottom: 10px;
+}
+.contact-row{
+    // // border: 1px solid red;
+    // font-family: $accent-font;
+    // text-align: center;
+    // margin-top: 20px;
+    // margin-bottom: 20px;
+    // h3{
+    //     padding-top: 2.5px;
+    //     // border: 1px solid red;
+    //     display: inline-block;
+    //     vertical-align: top;
+    //     width: 10vw;
+    //     max-width: 200px;
+    //     min-width: 100px;
+    //     background-color: $primary-orange;
+    //     color: white;
+    //     // padding: 10px;
+    // }
+    // p{
+    //     // border: 1px solid red;
+    //     display: inline-block;
+    //     vertical-align: top;
+    //     width: 275px;
+    //     // padding: 20px;
+    //     overflow-x: scroll;
+    // }
+    // i{
+    //     // border: 1px solid red;
+    //     display: inline-block;
+    //     vertical-align: top;
+    //     width: 10vw;
+    //     max-width: 100px;
+    //     min-width: 60px;
+    //     background-color: $primary-orange;
+    //     color: white;
+    //     padding-top: 5px;
+    //     padding-bottom: 5px;
+    //     // padding: 10px;
+    // }
+}
+
+
+
+// media queries for responsive design
+@media(max-width: 425px){
+    .about-title, .projects-title{
+        margin-top: 7.5vh;
+    }
+    .flex-child{
+        background-color: white;
+        border: none;
+        color: black;
+    }
+    .projects-img{
+        width: 250px;
+        height: 250px;
+    }
+
+    .description-carousel, .projects-banner{
+        width: 250px;
+    }
+}

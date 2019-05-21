@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="favicon.ico" />
+    <title>Amara Khan | Full-Stack Developer</title>
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <!-- Bulma css library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css" />     
+    <!-- jQuery -->
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <link rel = "stylesheet" type = "text/css" href = "css/main.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Arvo|Lato:300|Raleway&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display|Raleway&display=swap" rel="stylesheet"> -->
+</head>
+<body>
+    <nav class="navbar sticky" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="">
+            A <span class="divider">|</span> Khan
+          </a>
+      
+          <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item" href="#about">
+              <span id="nav-1">About</span>
+            </a>
+
+            <a class="navbar-item nav-spacing" href="#projects">
+              <span id="nav-2">Projects</span>
+            </a>
+
+            <a class="navbar-item nav-spacing">
+                <span id="nav-3">Resume</span>
+            </a>
+
+            <a class="navbar-item nav-spacing" href="#contact">
+                <span id="nav-4">Contact</span>
+            </a>
+          </div>
+    
+        </div>
+    </nav>
+
+    <div class="home" >
+        <div class="home-hero">
+            <h2>AMARA KHAN</h2>
+            <p>Full - Stack Developer</p>
+        </div>
+    </div>
+
+    <div class="about" id="about" >
+        <h2 class="about-title">About Me</h2>
+        <div class="flex-parent">
+            <div class="flex-child about-1">
+                <p>I'm a full-stack developer with an excitement for front-end libraries, 
+                    languages, and frameworks. Web development gets my creativity flowing, 
+                    as I laser in on fine tuning CSS transformations and responsive design.</p>
+            </div>
+            <div class="flex-child about-2">
+                <p> I'm always curious to learn new technologies. 
+                    With the ever-changing nature of web development, I stay up to date through documentation and tutorials.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="projects" id="projects">
+        <h2 class="projects-title">Projects</h2>
+        <div class="projects-carousel">
+            <div class="projects-img">
+                <img src="images/float-your-boat.png" alt="" id="p-img">
+            </div>
+        </div>
+        <div class="projects-banner"> 
+            <i class="fas fa-angle-double-left projects-arrow arrow-left"></i>
+            <a class="banner-link p-link" href="">Link</a>
+            <a class="banner-link g-link">GitHub</a>
+            <i class="fas fa-angle-double-right projects-arrow arrow-right"></i>
+        </div>
+        <div class="projects-description">
+            <p class="description-carousel">
+                <span class="project-title">FLOAT YOUR BOAT</span>  
+                <span class="project-text">Full-stack application using Node.js, 
+                Express.js, and MongoDB to store information about boat rentals and events.</span>
+            </p>
+        
+        </div>
+        <!-- <div class="project-carousel">
+
+        </div> -->
+    </div>
+
+    <div class="contact" id="contact" >
+        <h2 class="contact-title">Contact</h2>
+        <div class="contact-row" id="email">
+            <div class="top-row">
+                <i class="fas fa-envelope" id="email-icon"></i>
+            </div>
+            <div class="bottom-row">
+                <h3>email me</h3>
+            </div>
+        </div>
+        <div class="contact-row">
+            <div class="" id="github">
+                <h3>GitHub</h3>
+                <i class="fab fa-github" id="github-icon"></i>
+            </div>
+        </div>
+        <div class="contact-row">
+            <div class="" id="linkedin">
+                <h3>LinkedIn</h3>
+                <p>linkedin.com/in/amara-khan/</p>
+                <i class="fab fa-linkedin-in" id="linkedin-icon"></i>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+    <script src="js/carousel.js"></script>
+</body>
+</html>

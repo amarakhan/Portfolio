@@ -1,0 +1,249 @@
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav.navbar {
+  border-bottom: 2px solid rgba(112, 112, 112, 0.478) !important;
+  font-family: "Arvo", serif;
+}
+
+div.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.divider {
+  color: rgba(112, 112, 112, 0.478);
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+}
+
+a.navbar-item {
+  color: #F0AD89 !important;
+}
+
+#nav-1, #nav-2, #nav-3, #nav-4 {
+  color: black;
+}
+
+.home {
+  width: 90vw;
+  height: 92.5vh;
+  border-left: 2px solid rgba(112, 112, 112, 0.478);
+  border-right: 2px solid rgba(112, 112, 112, 0.478);
+  border-bottom: 2px solid rgba(112, 112, 112, 0.478);
+  margin: 0 auto;
+}
+
+.about, .projects, .contact {
+  width: 90vw;
+  min-height: 80vh;
+  border: 2px solid rgba(112, 112, 112, 0.478);
+  margin: 0 auto;
+  margin-top: 12.5vh;
+}
+
+.about {
+  min-height: 500px;
+}
+
+.contact {
+  margin-bottom: 6.25vh;
+}
+
+.home-hero {
+  text-align: center;
+  padding-top: 35vh;
+  max-width: 450px;
+  width: 60vw;
+  min-width: 250px;
+  margin: 0 auto;
+}
+
+.home-hero h2 {
+  padding-top: 20px;
+  padding-bottom: 5px;
+  background-color: #F0AD89;
+  color: white;
+  font-family: "Arvo", serif;
+  font-size: 2rem;
+  letter-spacing: .3rem;
+}
+
+.home-hero p {
+  background-color: #F0AD89;
+  padding-top: 7px;
+  font-family: "Arvo", serif;
+  color: black;
+  padding-bottom: 20px;
+}
+
+.about-title {
+  margin-top: 15vh;
+  text-align: center;
+  font-family: "Arvo", serif;
+  font-size: 1.5rem;
+  color: #F0AD89;
+  padding-bottom: 10px;
+}
+
+.flex-parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 10vh;
+}
+
+.flex-child {
+  padding: 7.5px;
+  width: 275px;
+}
+
+.about-1 {
+  border: 1px solid rgba(112, 112, 112, 0.478);
+}
+
+.about-2 {
+  background-color: black;
+  color: white;
+}
+
+.projects-title {
+  margin-top: 10vh;
+  text-align: center;
+  font-family: "Arvo", serif;
+  font-size: 1.5rem;
+  color: #F0AD89;
+  padding-bottom: 10px;
+}
+
+.projects-carousel, .projects-description {
+  text-align: center;
+}
+
+.projects-img {
+  border: 1px solid red;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid rgba(112, 112, 112, 0.478);
+}
+
+.description-carousel {
+  width: 300px;
+  display: inline-block;
+  background-color: white;
+  color: black;
+  font-family: "Raleway", sans-serif;
+  padding: 10px;
+}
+
+.projects-banner {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: #F0AD89;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.projects-arrow {
+  display: inline;
+  font-size: 2rem;
+  display: inline-block;
+  color: white;
+  background-position-x: 0;
+  transition: all 02s ease;
+  -webkit-transition: all 02s ease;
+}
+
+.projects-arrow:hover, .projects-arrow:active {
+  color: black;
+}
+
+.banner-link {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: black;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2rem;
+  transition: all 01s ease;
+  -webkit-transition: all 01s ease;
+}
+
+.banner-link:hover, .banner-link:active {
+  cursor: pointer;
+  color: white;
+}
+
+.arrow-left {
+  margin-right: 20px;
+}
+
+.arrow-left:hover {
+  cursor: pointer;
+}
+
+.arrow-right {
+  margin-left: 20px;
+}
+
+.arrow-right:hover {
+  cursor: pointer;
+}
+
+.projects-description {
+  margin-bottom: 10vh;
+}
+
+.project-title {
+  font-weight: bold;
+  font-family: "Arvo", serif;
+  display: block;
+  letter-spacing: .25rem;
+  padding-top: 6px;
+  padding-bottom: 5px;
+  font-size: 1.2rem;
+}
+
+.project-text {
+  font-size: .9rem;
+  color: black;
+}
+
+.contact-title {
+  margin-top: 10vh;
+  text-align: center;
+  font-family: "Arvo", serif;
+  font-size: 1.5rem;
+  color: #F0AD89;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 425px) {
+  .about-title, .projects-title {
+    margin-top: 7.5vh;
+  }
+  .flex-child {
+    background-color: white;
+    border: none;
+    color: black;
+  }
+  .projects-img {
+    width: 250px;
+    height: 250px;
+  }
+  .description-carousel, .projects-banner {
+    width: 250px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
