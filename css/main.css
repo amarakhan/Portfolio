@@ -13,6 +13,11 @@ div.navbar-brand {
   font-size: 1.5rem;
 }
 
+div.navbar-start {
+  margin-left: auto;
+  padding-right: 120px;
+}
+
 .divider {
   color: rgba(112, 112, 112, 0.478);
   padding-left: 7.5px;
@@ -295,6 +300,22 @@ a.navbar-item {
   }
   .description-carousel, .projects-banner {
     width: 250px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .projects-img, .description-carousel, .projects-banner {
+    width: 500px;
+  }
+  .projects-img {
+    height: 500px;
+  }
+  .home {
+    max-width: 1250px;
+  }
+  .about, .projects, .contact {
+    max-width: 1250px;
+    max-height: 1000px;
   }
 }
 /*# sourceMappingURL=main.css.map */
