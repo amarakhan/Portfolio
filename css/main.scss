@@ -305,15 +305,15 @@ a.navbar-item{
         max-height: 1000px;
     }
     .projects-img, .description-carousel, .projects-banner{
-        width: 400px;
+        width: 385px;
     }
     .projects-img{
-        height: 400px;
+        height: 385px;
     }
 }
 
 
-@media(min-width:1285px){
+@media(min-width:1300px){
     .projects-img, .description-carousel, .projects-banner{
         width: 500px;
     }
