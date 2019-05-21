@@ -10,7 +10,7 @@ const projectDescriptions = [
     "Marketing site for hiking trails and outdoor guides.",
     "Shopping list built with HTML, Foundation, and JavaScript.",
     "A sound and animation website that uses the Paper.js and Howler.js libraries. Mouse and touch events add rotating images and prompt sound effects.",
-    "A full-stack app using Node.js, Express.js, and MongoDB to store information about boat rentals and events. Implemented user authentication with Passport.js."
+    "A JavaScript game that implements Google’s Firebase for authentication and storing player position."
 ];
 const gitLinks = [
     'https://github.com/amarakhan/PartyBoats',
