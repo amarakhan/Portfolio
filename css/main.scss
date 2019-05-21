@@ -304,9 +304,16 @@ a.navbar-item{
         max-width: 1250px;
         max-height: 1000px;
     }
+    .projects-img, .description-carousel, .projects-banner{
+        width: 400px;
+    }
+    .projects-img{
+        height: 400px;
+    }
 }
 
-@media(min-width:1275px){
+
+@media(min-width:1285px){
     .projects-img, .description-carousel, .projects-banner{
         width: 500px;
     }
