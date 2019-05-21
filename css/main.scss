@@ -88,15 +88,16 @@ a.navbar-item{
     }
     p{
         background-color: $primary-orange;
-        // margin-left: 10vw;
-        // margin-right: 10vw;
-        padding-top: 7px;
         font-family: $title-font;
         color: black;
+        padding-bottom: 2px;
+    }
+    #typing{
         padding-bottom: 20px;
+        background-color: $primary-orange;
+        color: white;
     }
 }
-
 
 // Styling about me
 .about-title{
