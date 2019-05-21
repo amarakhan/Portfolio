@@ -227,47 +227,49 @@ a.navbar-item{
     color: $primary-orange;
     padding-bottom: 10px;
 }
-.contact-row{
-    // // border: 1px solid red;
-    // font-family: $accent-font;
-    // text-align: center;
-    // margin-top: 20px;
-    // margin-bottom: 20px;
-    // h3{
-    //     padding-top: 2.5px;
-    //     // border: 1px solid red;
-    //     display: inline-block;
-    //     vertical-align: top;
-    //     width: 10vw;
-    //     max-width: 200px;
-    //     min-width: 100px;
-    //     background-color: $primary-orange;
-    //     color: white;
-    //     // padding: 10px;
-    // }
-    // p{
-    //     // border: 1px solid red;
-    //     display: inline-block;
-    //     vertical-align: top;
-    //     width: 275px;
-    //     // padding: 20px;
-    //     overflow-x: scroll;
-    // }
-    // i{
-    //     // border: 1px solid red;
-    //     display: inline-block;
-    //     vertical-align: top;
-    //     width: 10vw;
-    //     max-width: 100px;
-    //     min-width: 60px;
-    //     background-color: $primary-orange;
-    //     color: white;
-    //     padding-top: 5px;
-    //     padding-bottom: 5px;
-    //     // padding: 10px;
-    // }
+.top-row{
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+    font-size: 1.5rem;
 }
-
+.bottom-row{
+    background-color: $primary-orange;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: bold;
+    transition: all 01s ease;
+    -webkit-transition: all 01s ease;
+}
+.contact-row{
+    border: 1px solid $border-grey;
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    // margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: $accent-font;
+}
+#email:hover, #email:active{
+    .bottom-row{
+        background-color: black;
+        color: white;
+    }
+    cursor: pointer;
+}
+#github:hover, #github:active{
+    .bottom-row{
+        background-color: black;
+        color: white;
+    }
+    cursor: pointer;
+}
+#linkedin:hover, #linkedin:active{
+    .bottom-row{
+        background-color: black;
+        color: white;
+    }
+    cursor: pointer;
+}
 
 
 // media queries for responsive design

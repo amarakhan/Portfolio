@@ -23,7 +23,7 @@
 <body>
     <nav class="navbar sticky" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-          <a class="navbar-item" href="">
+          <a class="navbar-item" href="#home">
             A <span class="divider">|</span> Khan
           </a>
       
@@ -44,7 +44,7 @@
               <span id="nav-2">Projects</span>
             </a>
 
-            <a class="navbar-item nav-spacing">
+            <a class="navbar-item nav-spacing" target="_blank" href="AmaraKhanResume.pdf">
                 <span id="nav-3">Resume</span>
             </a>
 
@@ -56,7 +56,7 @@
         </div>
     </nav>
 
-    <div class="home" >
+    <div class="home" id="home">
         <div class="home-hero">
             <h2>AMARA KHAN</h2>
             <p>Full - Stack Developer</p>
@@ -88,8 +88,8 @@
         </div>
         <div class="projects-banner"> 
             <i class="fas fa-angle-double-left projects-arrow arrow-left"></i>
-            <a class="banner-link p-link" href="">Link</a>
-            <a class="banner-link g-link">GitHub</a>
+            <a class="banner-link p-link" target="_blank" href="https://serene-bayou-45604.herokuapp.com/">Link</a>
+            <a class="banner-link g-link" target="_blank" href="https://github.com/amarakhan/PartyBoats">GitHub</a>
             <i class="fas fa-angle-double-right projects-arrow arrow-right"></i>
         </div>
         <div class="projects-description">
@@ -112,25 +112,29 @@
                 <i class="fas fa-envelope" id="email-icon"></i>
             </div>
             <div class="bottom-row">
-                <h3>email me</h3>
+                <h3>Email</h3>
             </div>
         </div>
-        <div class="contact-row">
-            <div class="" id="github">
-                <h3>GitHub</h3>
+        <div class="contact-row" id="github">
+            <div class="top-row">
                 <i class="fab fa-github" id="github-icon"></i>
             </div>
+            <div class="bottom-row">
+                <h3>GitHub</h3>
+            </div>
         </div>
-        <div class="contact-row">
-            <div class="" id="linkedin">
-                <h3>LinkedIn</h3>
-                <p>linkedin.com/in/amara-khan/</p>
+        <div class="contact-row" id="linkedin">
+            <div class="top-row" >
                 <i class="fab fa-linkedin-in" id="linkedin-icon"></i>
+            </div>
+            <div class="bottom-row">
+                <h3>LinkedIn</h3>
             </div>
         </div>
     </div>
 
     <script src="js/app.js"></script>
     <script src="js/carousel.js"></script>
+    <script src="js/contact.js"></script>
 </body>
 </html>
